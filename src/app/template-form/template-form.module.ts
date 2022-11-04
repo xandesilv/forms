@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormDebugComponent } from './form-debug/form-debug.component';
 import { CampoControlComponent } from './campo-control/campo-control.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -15,7 +16,8 @@ import { CampoControlComponent } from './campo-control/campo-control.component';
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ]
 })
 export class TemplateFormModule { }

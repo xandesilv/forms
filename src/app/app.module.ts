@@ -20,6 +20,7 @@ import { DataFormComponent } from './data-form/data-form.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    
     TemplateFormModule
 
   ],
